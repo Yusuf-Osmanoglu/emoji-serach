@@ -1,40 +1,89 @@
-# Getting Started with Create React App
+# Emoji Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Emoji Search, kullanıcıların arama yaparak emojileri hızlı ve kolay bir şekilde bulmalarını sağlayan bir web uygulamasıdır. Bu proje, React kullanılarak geliştirilmiş olup, özellikle hızlı arama işlevselliğine odaklanılmıştır.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 🔍 **Hızlı Arama:** Anında arama sonuçları gösterilir.
+- 📋 **Kopyala:** Bulduğunuz emojiyi kolayca kopyalayabilirsiniz.
+- 📱 **Responsive Tasarım:** Mobil ve masaüstü cihazlarda sorunsuz çalışır.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
-### `npm test`
+1. Bu repository'yi klonlayın:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/Yusuf-Osmanoglu/emoji-serach.git
+    cd emoji-serach
+    ```
 
-### `npm run build`
+2. Gerekli bağımlılıkları yükleyin:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Uygulamayı başlatın:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+    Uygulama varsayılan olarak `http://localhost:3000` adresinde çalışacaktır.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Arama çubuğuna bir anahtar kelime girin (örneğin, "smile").
+2. Sonuçlar anında güncellenecektir.
+3. Kullanmak istediğiniz emojiyi tıklayarak kopyalayın.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   #####################################################################################
+   #####################################################################################
+   #####################################################################################
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Emoji Search
+
+## Overview
+
+Emoji Search is a web application that allows users to quickly and easily find emojis by searching. This project is developed using React, with a focus on fast search functionality.
+
+## Features
+
+- 🔍 **Instant Search:** Results are displayed instantly as you type.
+- 📋 **Copy to Clipboard:** Easily copy the emoji you find.
+- 📱 **Responsive Design:** Works seamlessly on both mobile and desktop devices.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/Yusuf-Osmanoglu/emoji-serach.git
+    cd emoji-serach
+    ```
+
+2. Install the necessary dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the application:
+
+    ```bash
+    npm start
+    ```
+
+    The app will be running at `http://localhost:3000` by default.
+
+## Usage
+
+1. Enter a keyword in the search bar (e.g., "smile").
+2. Results will update instantly.
+3. Click on the emoji you want to copy it to your clipboard.
